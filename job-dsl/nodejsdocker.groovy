@@ -2,7 +2,6 @@ job('NodeJS Docker example') {
      scm {
         github('akibhasan15/docker-demo')
     }
-    }
     triggers {
         scm('H/5 * * * *')
     }
